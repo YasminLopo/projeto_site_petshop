@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <title>Document</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #ffffff;
+    }
+
+
+    /*nav bar 1 2*/
+
+    .navbar navbar-expand-lg bg-body-tertiary {
+      background-color: #d7dee4;
+
+    }
+
+    .navbar-brand {
+
+      font-size: 20px;
+      font-family: 'Poppins', sans-serif;
+
+    }
+
+    .nav-link active {
+      font-family: 'Poppins', sans-serif;
+
+    }
+
+    .navbar-nav {
+      font-size: 20px;
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      justify-content: center;
+      /* Centraliza os itens de navegação */
+      width: 100%;
+      /* Garante que ocupe todo o espaço disponível */
+    }
+
+    .navbar {
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .navbar .container-fluid {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+
+    }
+
+    .navbar .d-flex {
+      width: 100%;
+      max-width: 600px;
+    }
+
+    .container-fluid-2 {
+      display: flex;
+      justify-content: center;
+      /* Centraliza o conteúdo horizontalmente */
+      align-items: center;
+    }
+
+    /* Centraliza o conteúdo verticalmente */
+
+
+    .image-row img {
+      width: 20%;
+      /* Mantém cada imagem ocupando 20% da largura do container */
+      height: auto;
+      border-radius: 50%;
+      /* Faz as imagens ficarem redondas */
+      display: block;
+      object-fit: cover;
+      /* Garante que a imagem preencha o contorno redondo */
+    }
+
+    .image-row {
+      display: flex;
+      justify-content: space-between;
+      /* Garante espaçamento uniforme */
+      margin-bottom: 10px;
+      /* Espaço entre as linhas */
+    }
+
+    .image-row img {
+      width: calc(10% - 10px);
+      /* Cada imagem ocupa 20% da largura do container menos a margem */
+      height: auto;
+      border-radius: 50%;
+      /* Faz as imagens ficarem redondas */
+      display: block;
+      object-fit: cover;
+      /* Garante que a imagem preencha o contorno redondo */
+      margin: 5px;
+      /* Espaço entre as imagens */
+    }
+
+    .image-row {
+      display: flex;
+      justify-content: center;
+      /* Centraliza as imagens */
+      margin-bottom: 20px;
+      /* Espaço entre as linhas */
+    }
+
+    .video-section {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .video-section {
+      max-width: 1920px;
+      /* Ancho máximo del contenedor */
+      margin: 0 auto;
+      /* Centrar el contenedor */
+    }
+
+    video {
+      width: 100%;
+      /* Hacer el video responsivo */
+      height: auto;
+      /* Mantener la proporción del video */
+    }
+
+    .carouselExample {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-top: 50PX;
+    }
+
+    .tituto {
+      text-align: center;
+      /* Centraliza a imagem horizontalmente */
+      margin-top: 20px;
+      /* Espaço acima da imagem */
+    }
+
+    .tituto img {
+      width: 100%;
+      /* Diminui o tamanho da imagem */
+      height: auto;
+    }
+
+    .card{
+      align-items: center;
+    }
+
+    .card h4{
+      text-align: center;
+    }
+
+    .card {
+  background-color: #f8f9fa; /* Cor de fundo */
+  border: 1px solid #e0e0e0; /* Bordas suaves */
+  border-radius: 10px; /* Bordas arredondadas */
+}
+
+.card-title {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  color: #ffc107; /* Cor do título */
+}
+
+.card-text {
+  font-size: 1em;
+  color: #6c757d; /* Cor do texto */
+}
+
+.h-100 {
+  height: 100%;
+}
+
+
+
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-warning">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./img/2.png" alt="Bootstrap" width="50" height="50">
+      </a>
+    </div>
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid-2">
+      <a class="navbar-brand" href="cachorro.html">Cachorro</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="gato.html">Gato</a>
+          <a class="nav-link active" aria-current="page" href="passaro.html">Passaro</a>
+          <a class="nav-link active" aria-current="page" href="peixe.html">Peixe</a>
+          <a class="nav-link active" aria-current="page" href="hospital.html">Hospital</a>
+          <a class="nav-link active" aria-current="page" href="oq_precisa.html">O que você precisa?</a>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="video-section">
+    <video autoplay muted loop>
+      <source
+        src="./img/!DOCTYPE html html lang=pt-br head meta charset=UTF-8 meta http-equiv=X-UA-Compatible content=IE=edge meta name=viewport content=width=device-width, initial-scale=1.0 script.mp4"
+        type="video/mp4">
+      Seu navegador não suporta o elemento de vídeo.
+    </video>
+    <div class="video-overlay">
+      </a>
+    </div>
+
+
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://cdn-dlhee.nitrocdn.com/ybnuSnNmURZuudVquzECrLiOTPaDdMhN/assets/images/optimized/rev-d581baa/siteoficial-cliqueagora.com.br/wp-content/uploads/2023/08/3.png"
+            class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://supertrato.pet/cdn/shop/files/banner-loja-132-1_a77c8f88-c22d-4ab4-894a-9e9a847508af_1800x.jpg?v=1726077031"
+            class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.tcdn.com.br/img/img_prod/752354/1723808719_banners_site_agosto_01.png"
+            class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <div class="tituto">
+      <img src="./img/marcas_parceiras.png" alt="">
+    </div>
+
+    <div class="image-row">
+      <img src="./img/PEDIGREE.png" alt="Imagem 1">
+      <img src="./img/MARCA 2.png" alt="Imagem 2">
+      <img src="./img/MARCA 5 (1).webp" alt="Imagem 3">
+      <img src="./img/MARCA 7 (1).png" alt="Imagem 4">
+      <img src="./img/marca 9 (1).jpg" alt="Imagem 5">
+    </div>
+
+    <div class="image-row">
+      <img src="./img/MARCA 3 (1).png" alt="Imagem 1">
+      <img src="./img/MARCA 4 (1).webp" alt="Imagem 2">
+      <img src="./img/MARCA 6 (1).png" alt="Imagem 3">
+      <img src="./img/MARCA8 (1).jpg" alt="Imagem 4">
+      <img src="./img/marca 10 (1).png" alt="Imagem 5">
+    </div>
+
+    <div class="tituto">
+      <img src="./img/dicas.png" alt="">
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">CACHORROS</h4>
+            <p class="card-text">Estabeleça uma rotina! Leve seu cachorro para fazer as necessidades no mesmo horário
+              todos os dias. Eles adoram previsibilidade e isso vai ajudar a evitar acidentes em casa.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">GATOS</h4>
+            <p class="card-text">Gatos geralmente não gostam muito de água, mas é importante que eles tenham sempre água
+              fresca disponível. Coloque tigelas de água em diferentes lugares da casa para incentivar seu gato a beber
+              mais.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">PÁSSAROS</h4>
+            <p class="card-text">Aves adoram entretenimento! Coloque brinquedos variados na gaiola para mantê-las
+              estimuladas e felizes. Ramos, sinos e brinquedos de madeira podem fazer maravilhas para o bem-estar delas.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+</body>
+
+</html>

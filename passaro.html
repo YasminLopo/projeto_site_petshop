@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <title>Document</title>
+
+    <style>
+          *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+      background-color: #ffffff;
+    }
+
+
+    /*nav bar 1 2*/
+
+    .navbar navbar-expand-lg bg-body-tertiary {
+      background-color: #d7dee4;
+
+    }
+
+    .navbar-brand {
+
+      font-size: 20px;
+      font-family: 'Poppins', sans-serif;
+
+    }
+
+    .nav-link active {
+      font-family: 'Poppins', sans-serif;
+
+    }
+
+    .navbar-nav {
+      font-size: 20px;
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      justify-content: center;
+      /* Centraliza os itens de navegação */
+      width: 100%;
+      /* Garante que ocupe todo o espaço disponível */
+    }
+
+    .navbar {
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .navbar .container-fluid {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+
+    }
+
+    .navbar .d-flex {
+      width: 100%;
+      max-width: 600px;
+    }
+
+    .container-fluid-2 {
+      display: flex;
+      justify-content: center;
+      /* Centraliza o conteúdo horizontalmente */
+      align-items: center;
+    }
+
+    .video-section {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .video-section {
+      max-width: 1920px;
+      /* Ancho máximo del contenedor */
+      margin: 0 auto;
+      /* Centrar el contenedor */
+    }
+
+    video {
+      width: 100%;
+      /* Hacer el video responsivo */
+      height: auto;
+      /* Mantener la proporción del video */
+    }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-warning">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./img/2.png" alt="Bootstrap" width="50" height="50">
+        </a>
+      </div>
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+      </div>
+    </nav>
+  
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid-2">
+        <a class="navbar-brand" href="cachorro.html">Cachorro</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="gato.html">Gato</a>
+            <a class="nav-link active" aria-current="page" href="passaro.html">Passaro</a>
+            <a class="nav-link active" aria-current="page" href="peixe.html">Peixe</a>
+            <a class="nav-link active" aria-current="page" href="hospital.html">Hospital</a>
+            <a class="nav-link active" aria-current="page" href="oq_precisa.html">O que você precisa?</a>
+  
+          </div>
+        </div>
+      </div>
+    </nav>
+  
+    <div class="video-section">
+      <video autoplay muted loop>
+        <source
+          src="./img/gifpassaro.mp4"
+          type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+      </video>
+      <div class="video-overlay">
+        </a>
+      </div>
+
+      <div class="card-group">
+        <div class="card">
+          <img  src="./img/nutropica calopsita extrusado.jpg" class="card-img-top" alt="Ração Nutrópica">
+          <div class="card-body">
+            <h5 class="card-title">Alimento Nutrópica Extrusado Natural para Calopsita 300g</h5>
+            <h6 class="card-text">R$ 31,90</h6>
+            <a href="#" class="btn">Comprar</a>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/Reino das aves gold mix.jpg" class="card-img-top" alt="Ração Reino das Aves">
+          <div class="card-body">
+            <h5 class="card-title">Ração Reino das Aves Gold Mix Calopsita para Pássaros 500g</h5>
+            <h6 class="card-text">R$ 14,99</h6>
+              <a href="#" class="btn">Comprar</a>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/sempre vita calopsitas agapornis.jpg" class="card-img-top" alt="Ração Sempre Vita">
+          <div class="card-body">
+            <h5 class="card-title">Ração Sempre Vita Calopsitas e Agapornis - 500g</h5>
+            <p>R$ 10,99-10%</p>
+            <h6 class="card-text">R$ 9,89</h6>
+            <a href="#" class="btn">Comprar</a>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+ </div>
+
+ <div class="card-group">
+    <div class="card">
+      <img  src="./img/nutropica trinca ferro natural.jpg" class="card-img-top" alt="Ração Nutrópica">
+      <div class="card-body">
+        <h5 class="card-title">Nutrópica Natural para Trinca Ferro 500g</h5>
+        <h6 class="card-text">R$ 75,99</h6>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./img/reino das aves trinca ferro banana.jpg" class="card-img-top" alt="Ração Reino das Aves">
+      <div class="card-body">
+        <h5 class="card-title">Ração Reino das Aves Extra Gold Banana para Pássaros 500g</h5>
+        <h6 class="card-text">R$ 15,99</h6>
+          <a href="#" class="btn">Comprar</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./img/prefere mix trinca ferro.jpg" class="card-img-top" alt="Ração Prefere Mix">
+      <div class="card-body">
+        <h5 class="card-title">Alimento Prefere Mix com Frutas para Trinca-Ferro 500g</h5>
+        <h6 class="card-text">R$ 21,99</h6>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card-group">
+    <div class="card">
+      <img  src="./img/sempre vita papagaio com frutas.jpg" class="card-img-top" alt="Ração Sempre Vita">
+      <div class="card-body">
+        <h5 class="card-title">Ração Sempre Vita Papagaio com Frutas - 500g</h5>
+        <p>R$ 13,99-10%</p>
+        <h6 class="card-text">R$ 12,59</h6>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./img/nutropica extrusado natural pra papagaio.jpg" class="card-img-top" alt="Ração Nutrópica">
+      <div class="card-body">
+        <h5 class="card-title">Alimento Nutrópica Extrusado Natural para Papagaio 1,2Kg</h5>
+        <h6 class="card-text">R$ 92,99</h6>
+          <a href="#" class="btn">Comprar</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./img/zookenia pra papagaio.jpg" class="card-img-top" alt="Ração Zootekna">
+      <div class="card-body">
+        <h5 class="card-title">Ração Zootekna para Papagaios Mistura de Sementes 400g</h5>
+        <h6 class="card-text">R$ 7,99</h6>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card-group">
+    <div class="card">
+      <img  src="./img/zoojenia periquito.jpg" class="card-img-top" alt="Ração Zootekna">
+      <div class="card-body">
+        <h5 class="card-title">Ração Zootekna para Periquitos Mistura de Sementes - 500g</h5>
+        <h6 class="card-text">R$ 7,90</h6>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./img/nutropica extrusado natural pra papagaio.jpg" class="card-img-top" alt="Ração Nutrópica">
+      <div class="card-body">
+        <h5 class="card-title">Ração Nutrópica para Periquito 300g</h5>
+        <p>R$ 35,99-10%</p>
+        <h6 class="card-text">R$ 32,39</h6>
+          <a href="#" class="btn">Comprar</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./img/reino das aves periquito.jpg" class="card-img-top" alt="Ração Reino das Aves">
+      <div class="card-body">
+        <h5 class="card-title">Ração Reino das Aves Gold Mix Periquito - 500g</h5>
+        <h6 class="card-text">R$ 15,99</h6>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card-group">
+    <div class="card">
+      <img  src="./img/reino das aves beija flor.jpg" class="card-img-top" alt="Ração Reino das Aves">
+      <div class="card-body">
+        <h5 class="card-title">Ração Reino das Aves Néctar para Beija-flor - 400g</h5>
+        <h6 class="card-text">R$ 16,99</h6>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./img/alcon beija flor.jpg" class="card-img-top" alt="Ração Alcon">
+      <div class="card-body">
+        <h5 class="card-title">Ração Alcon Beija-Flor Néctar 600g</h5>
+        <h6 class="card-text">R$ 79,99</h6>
+          <a href="#" class="btn">Comprar</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./img/nutropica beija flor.jpg" class="card-img-top" alt="Ração Nutrópica">
+      <div class="card-body">
+        <h5 class="card-title">Ração Nutrópica Néctar para Beija-Flor 500g</h5>
+        <p>R$ 54,99-9%</p>
+        <h6 class="card-text">R$ 49,90</h6>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card-group">
+    <div class="card">
+      <img  src="./img/sempre vita sabiá.jpg" class="card-img-top" alt="Ração Sempre Vita">
+      <div class="card-body">
+        <h5 class="card-title">Ração Sempre Vita Triturado para Sabiás - 500g</h5>
+        <h6 class="card-text">R$ 12,99</h6>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./img/nutropica sabia.jpg" class="card-img-top" alt="Ração Nutrópica">
+      <div class="card-body">
+        <h5 class="card-title">Ração Nutrópica para Sabiá e Pássaro Preto 300g</h5>
+        <p>R$ 41,99-10%</p>
+        <h6 class="card-text">R$ 37,79</h6>
+          <a href="#" class="btn">Comprar</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./img/reino das aves sabia.jpg" class="card-img-top" alt="Ração Reino das Aves">
+      <div class="card-body">
+        <h5 class="card-title">Ração Reino das Aves Gold Mix Tico Tico para Pássaros - 500g</h5>
+        <h6 class="card-text">R$ 15,99</h6>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+
